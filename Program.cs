@@ -7,14 +7,14 @@
 int score = 0;
 Console.WriteLine("HELLO AND WELCOME TO THE AIDEN GAMES!!!");
 Console.WriteLine("Tell me whats your name");
-string name = Console.ReadLine();
+string name = Console.ReadLine().ToLower();
 Console.WriteLine("...");
 Console.WriteLine($"SO {name} ON TO OUR FIRST ROUND");
 Console.WriteLine("WHATS AIDENS LAST NAME!!!");
 Console.WriteLine("...");
 Console.WriteLine("");
 
-string lastnaem = Console.ReadLine();
+string lastnaem = Console.ReadLine().ToLower();
 if (lastnaem == "gladki")
 {
     Console.WriteLine($"Congardulation {name} you must know Aiden well");
@@ -32,7 +32,7 @@ Console.WriteLine("");
 Console.WriteLine($"ON TOOOO THE SECOND ROUND TELL ME {name} whats Aidens favorite color?");
 Console.WriteLine("...");
 Console.WriteLine("");
-string color = Console.ReadLine();
+string color = Console.ReadLine().ToLower();
 if (color == "purple")
 {
     Console.WriteLine($"Ohhhh good job not many people know that {name}");
@@ -68,7 +68,7 @@ Console.WriteLine("And now we're not");
 Console.WriteLine("I wish you would tell me why");
 Console.WriteLine("Do you wanna build a snowman?");
 Console.WriteLine("");
-string snowman = Console.ReadLine();
+string snowman = Console.ReadLine().ToLower();
 
 if (snowman == "yes")
 {
@@ -89,7 +89,7 @@ Console.WriteLine("");
 Console.WriteLine($"{name}!!! IT IS NOW TIME FOR THE FINAL ROUND YOU WIN IT ALL OR  FALL AND LOSES EVERTHING");
 Console.WriteLine("The question is...");
 Console.WriteLine("DO YOU LIKE LADY GAGA");
-string ladygaga = Console.ReadLine();
+string ladygaga = Console.ReadLine().ToLower();
 Console.WriteLine("");
 
 if  (ladygaga == "i love her")
@@ -128,7 +128,7 @@ if (score <= 1)
     Console.WriteLine("You You!!! ahg Get OUT OF MY SITE1!!");
     Console.WriteLine("(If this wasnt a computer pogram you would be running for your life by now)");
     Console.WriteLine("You lose");
-    if (name == "Aiden")
+    if (name == "aiden")
     {
         Console.WriteLine("(Back stage)");
         Console.WriteLine("Thank you for comming on stage with me master");
@@ -146,7 +146,7 @@ else if(score == 2)
     Console.WriteLine("UUUGGG YOU.. you");
     Console.WriteLine("you did bad but not im gona murder you bad");
     Console.WriteLine("so you lose and leave before i change my mind");
-    if (name == "Aiden")
+    if (name == "aiden")
     {
         Console.WriteLine("(Back stage)");
         Console.WriteLine("Thank you for comming on stage with me master");
@@ -164,7 +164,7 @@ else if (score == 3)
     Console.WriteLine("HMM well you havent done the best");
     Console.WriteLine("But Aiden Preaches forgivness so...");
     Console.WriteLine("You win take your reward i wish you th best of luck");
-    if (name == "Aiden")
+    if (name == "aiden")
     {
         Console.WriteLine("(Back stage)");
         Console.WriteLine("Thank you for comming on stage with me master");
@@ -183,7 +183,7 @@ else if (score == 4)
     Console.WriteLine("You have my cratitued and love");
     Console.WriteLine("Here is you prize 10000$ is straight cash");
     Console.WriteLine("May you have a lovely live");
-    if (name == "Aiden")
+    if (name == "aiden")
     {
         Console.WriteLine("(Back stage)");
         Console.WriteLine("Thank you for comming on stage with me master");
@@ -204,7 +204,7 @@ else if (score >= 5)
     Console.WriteLine("Ive been saving a truly special gift for the time when someone like you comes along");
     Console.WriteLine("Lady Gaga will see you soon, this is the greaticed gift of all");
     Console.WriteLine("Good by my ture freind");
-    if (name == "Aiden")
+    if (name == "aiden")
     {
         Console.WriteLine("(Back stage)");
         Console.WriteLine("Thank you for comming on stage with me master");
